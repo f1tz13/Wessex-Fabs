@@ -1,0 +1,11 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-white text-gray-900; }
+.container { @apply max-w-7xl mx-auto px-4; }
+.btn { @apply inline-flex items-center rounded-2xl px-5 py-3 font-medium text-white bg-accent hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-accent; }
+.card { @apply bg-white rounded-2xl border border-gray-200 shadow-sm; }
+header a { @apply hover:opacity-80; }
